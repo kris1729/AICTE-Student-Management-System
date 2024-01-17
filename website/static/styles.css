@@ -1,0 +1,198 @@
+.log {
+    position: absolute;
+    /*top: 8px;*/
+    right: 10px;
+    top: 4px;
+    bottom: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+
+}
+
+.logo {
+    height: auto;
+    width: 40px;
+}
+
+/*.dash_box {*/
+/*    background: lightgrey;*/
+/*    padding: 1px;*/
+/*    border-radius: 20px;*/
+/*}*/
+
+.home_page {
+    margin-top: 3% !important;
+
+}
+
+.flex_1 {
+    width: 15%;
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.bi-person-circle {
+    font-size: larger;
+}
+
+
+/*my changes*/
+
+
+.home_page_icon {
+    font-size: 200%;
+float: right ;
+    margin-top: 10px;
+}
+
+.img_home {
+    height: 400px;
+    margin-top: 40px;
+}
+
+#home_login {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.login_box {
+    background: #B6C4B6;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 30px;
+    margin-left: 60%;
+    margin-right: 2%;
+    margin-top: -26%;
+}
+
+.user_box {
+    width: 65%;
+    margin-left: 18%;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-size: 50px;
+}
+
+.srch {
+    width: 10%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.srch_uid {
+    margin-right: 4px;
+    border-radius: 6px;
+}
+
+/*again*/
+.btn1 {
+    margin-top: 10px;
+}
+
+.srch_dwn {
+    margin-bottom: 20px;
+}
+
+.add_box {
+    border-radius: 10px;
+    width: 60%;
+    padding: 0 5% 5% 5%;
+    margin-bottom: 10%;
+    margin-top: 20px;
+    background: #DED0B6;
+}
+
+/*phirse*/
+h3 {
+    margin-left: 10%;
+    font-family: "Times New Roman";
+    font-size: 350%;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, #607274, #304D30);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.wlcm {
+    width: 55%;
+    margin-top: 5%;
+}
+
+.parag {
+    font-family: Arial;
+    letter-spacing: 1.2px;
+}
+
+.about-img { /* Gray border */
+    border-radius: 4px; /* Rounded border */
+    /* Some padding */
+    width: 106%; /* Set a small width */
+    margin-top: 14%;
+}
+h5{
+    font-size: 25px;
+}
+.navlink{
+    /*margin-left: 770px;*/
+    /*margin-bottom: 5px;*/
+}
+.our{
+    border-radius: 5%;
+    background: #DED0B6;
+    margin:0px 40px 0px 40px;
+    padding-top: 10px;
+}
+footer{
+    background: #7C93C3;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+/*suraj changes*/
+
+
+.card_title {
+    text-align: center;
+}
+
+.card {
+
+    background: lightgray;
+    width: 21rem;
+    margin: 15px;
+    padding: 0;
+    border: 5px black;
+
+}
+
+.card_h {
+
+    background-color: white;
+    margin: 0;
+}
+
+.navbar-brand{
+    font-size: 16px;
+    text-align: center;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 0px;
+
+}
+h4{
+    /*font-weight: bold;*/
+    font-size: 30px;
+    margin-bottom: 0px;
+}

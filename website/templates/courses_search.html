@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    {% if result_search %}
+{#{% if searched_for %}#}
+{#    <h1>{{ searched_for }}</h1>#}
+        <div><h1>Course Detail</h1></div>
+    <table class="table table-striped table-hover table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">Course Code</th>
+                <th scope="col">Course Name</th>
+                <th scope="col">Course Duration</th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider">
+            {% for record in result_search %}
+            <tr>
+                <td>{{record.code}}</td>
+                <td>{{record.name}}</td>
+                <td>{{record.duration}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+
+
+
+    <div style="text-align: center">
+    <a href = "{% url 'courses_page' %} " class ="btn btn-dark btn1" ><i class="bi bi-arrow-left-circle"></i> Back</a>
+    </div>
+{% endblock %}

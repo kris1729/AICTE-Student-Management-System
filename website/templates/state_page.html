@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="col-ms-6 mx-auto "  style="text-align: center;">
+    {% if user.is_authenticated %}
+    <h1>State</h1>
+        </div>
+    {% if state_records %}
+
+    <table class="table table-striped table-hover table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">State Code</th>
+                <th scope="col">State Name</th>
+                <th scope ='col'>List Colleges</th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider">
+            {% for record in state_records %}
+            <tr>
+                <td>{{record.name}}</td>
+                <td>{{record.code}}</td>
+                <td><a href="{% url 'state_college' record.code %}" class="btn btn-sm btn-secondary">List Colleges</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+
+
+    <div class="col-ms-6 mx-auto "  style="text-align: center;">
+    {% else %}
+
+    <h1 class="text-center">Please log in to continue</h1>
+
+    {% endif %}
+
+    <a href = "{% url 'home' %} " class ="btn btn-dark btn1 " ><i class="bi bi-arrow-left-circle"></i> Back</a>
+    </div>
+{% endblock %}
